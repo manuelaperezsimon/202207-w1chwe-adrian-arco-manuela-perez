@@ -1,4 +1,5 @@
 {
+    
   "name": "202207-w1chwe-adrian-arco-manuela-perez",
   "version": "1.0.0",
   "description": "",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez#readme",
   "devDependencies": {
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "husky": "^8.0.1"
   }
 }
+
