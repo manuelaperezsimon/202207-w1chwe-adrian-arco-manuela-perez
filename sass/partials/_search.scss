@@ -1,0 +1,43 @@
+@use "../variables/colors";
+
+.section__tittle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #BCA4FF;
+}
+
+.section__search {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  background-color: #2A00A2;;
+  margin-top: 60px;
+  border-radius: 20px;
+  width: 300px;
+  height: 450px; 
+}
+
+.text {
+  color: #BCA4FF;
+}
+
+.form__input {
+  border-radius: 16px;
+  justify-content: space-between;
+  gap: 20px;
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+
+
+}
+
+
+
+.section__form .form__input--search {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  border-radius: 16px;
+
+}  
