@@ -17,11 +17,12 @@
 
 .main__form {
 
+  display: flex;
+  flex-direction: column;
+
   .form__input {
     font-family: "Poppins", sans-serif;
     border-radius: 16px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     gap: 20px;
     margin: 0px 30px;
@@ -48,12 +49,31 @@
 }
 
 
-// @media (min-width: 900px) {
-//   .main__form {
-//     display: flex;
-//     margin-top: 30px;
-//   }
-// }
+@media (min-width: 900px) {
+  .main__form {
+    margin-top: 30px;
+    flex-direction: row;
+    gap: 0;
+
+    .input--destiny {
+      width: 1000px;
+      
+  }
+  
+    .input--check-in-check-out {
+      width: 500px;
+      
+    }
+
+    .input--number-of-passangers {
+      width: 500px;
+      
+    }
+  }    
+}
+
+  
+
 
 
 
