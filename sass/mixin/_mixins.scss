@@ -1,3 +1,5 @@
+@use "../variables/colors";
+
 @mixin formInput($borderRadiusInput, $widthInput, $heightInput) {
   font-family: "Poppins", sans-serif;
   border-radius: $borderRadiusInput;
