@@ -1,55 +1,25 @@
 {
-    
   "name": "202207-w1chwe-adrian-arco-manuela-perez",
-    
   "version": "1.0.0",
-    
   "description": "",
-    
   "main": "index.js",
-    
   "scripts": {
-    
-      
-  "netlify-sass": "npx sass sass/styles.scss css/styles.css",
-    
-      
-  "compilate-sass": "npx sass sass/styles.scss css/styles.css --watch"
-    
+    "netlify-sass": "npx sass sass/styles.scss css/styles.css",
+    "compilate-sass": "npx sass sass/styles.scss css/styles.css --watch"
   },
-    
   "repository": {
-    
-      
-  "type": "git",
-    
-      
-  "url": "git+https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez.git"
-    
+    "type": "git",
+    "url": "git+https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez.git"
   },
-    
   "keywords": [],
-    
   "author": "",
-    
   "license": "ISC",
-    
   "bugs": {
-    
-      
-  "url": "https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez/issues"
-    
+    "url": "https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez/issues"
   },
-    
   "homepage": "https://github.com/manuelaperezsimon/202207-w1chwe-adrian-arco-manuela-perez#readme",
-    
   "devDependencies": {
-    
-      
-  "husky": "^8.0.1",
-    
-      
-  "sass": "^1.53.0"
-    
+    "husky": "^8.0.1",
+    "sass": "^1.53.0"
   }
 }
