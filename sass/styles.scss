@@ -1,6 +1,7 @@
 @use "variables/colors";
 @use "mixin/mixins";
 @use "partials/header";
+@use "partials/found-card";
 @use "partials/form";
 
 * {
@@ -20,4 +21,8 @@ h4,
 h5,
 h6 {
   margin: 0;
+  color: colors.$purple-color;
+}
+.letter--purple {
+  color: colors.$purple-color;
 }
