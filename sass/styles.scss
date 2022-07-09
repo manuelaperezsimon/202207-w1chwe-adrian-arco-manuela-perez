@@ -1,6 +1,7 @@
 @use "variables/colors";
 @use "mixin/mixins";
 @use "partials/header";
+@use "partials/form";
 
 * {
   box-sizing: content-box;
