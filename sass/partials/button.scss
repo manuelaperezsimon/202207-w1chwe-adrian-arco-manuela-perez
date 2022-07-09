@@ -1,0 +1,38 @@
+@use "../variables/colors";
+@use "../mixin/mixins";
+/*.button {
+  font-family: "Poppins", sans-serif;
+  border-radius: 40px;
+  background-color: colors.$pink-color;
+  color: colors.$white-color;
+  margin: 0px 30px;
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+}*/
+.button--small {
+  @include mixins.button(10rem, 1rem);
+}
+.button--transparent {
+  padding: 10px;
+  border: solid 1px;
+  border-color: grey;
+  background-color: white;
+  color: colors.$purple-color;
+  font-weight: 700;
+  margin: 0;
+}
+.container__button {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  height: 8rem;
+}
+.button--big {
+  @include mixins.button(300px, 30px);
+}
+.button--pink {
+  font-family: "Poppins", sans-serif;
+  background-color: colors.$pink-color;
+  color: colors.$white-color;
+}
