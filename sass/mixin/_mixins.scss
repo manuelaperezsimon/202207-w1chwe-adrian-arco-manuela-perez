@@ -10,11 +10,9 @@
   height: $heightInput;
 }
 
-@mixin button($background-color, $width, $height, $font-color) {
+@mixin button($width, $height) {
   font-family: "Poppins", sans-serif;
   border-radius: 40px;
-  background-color: $background-color;
-  color: $font-color;
   margin: 0px 30px;
   width: $width;
   height: $height;
