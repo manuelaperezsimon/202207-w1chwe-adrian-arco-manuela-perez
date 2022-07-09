@@ -1,5 +1,4 @@
-
-@mixin formInput ($borderRadiusInput, $widthInput, $heightInput) {
+@mixin formInput($borderRadiusInput, $widthInput, $heightInput) {
   font-family: "Poppins", sans-serif;
   border-radius: $borderRadiusInput;
   display: flex;
@@ -11,3 +10,14 @@
   height: $heightInput;
 }
 
+@mixin button($background-color, $width, $height, $font-color) {
+  font-family: "Poppins", sans-serif;
+  border-radius: 40px;
+  background-color: $background-color;
+  color: $font-color;
+  margin: 0px 30px;
+  width: $width;
+  height: $height;
+  padding: 5px;
+  border: none;
+}

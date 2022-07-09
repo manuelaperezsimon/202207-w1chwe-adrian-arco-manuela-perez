@@ -1,0 +1,15 @@
+@use "../variables/colors";
+@use "../mixin/mixins";
+/*.button {
+  font-family: "Poppins", sans-serif;
+  border-radius: 40px;
+  background-color: colors.$pink-color;
+  color: colors.$white-color;
+  margin: 0px 30px;
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+}*/
+.button {
+  @include mixins.button(colors.$pink-color, 100px, 50px, white);
+}
