@@ -1,9 +1,16 @@
 @use "variables/colors";
+@use "mixin/mixins";
+@use "partials/header";
+
 * {
   box-sizing: content-box;
 }
+
 html {
   font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
 }
 h1,
 h2,
@@ -12,20 +19,4 @@ h4,
 h5,
 h6 {
   margin: 0;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-.title {
-  padding: 10px;
-  color: colors.$purple-color;
-}
-.menu {
-  display: flex;
-  background-color: pink;
-  align-self: center;
-  color: colors.$purple-color;
-  padding: 10px;
 }
