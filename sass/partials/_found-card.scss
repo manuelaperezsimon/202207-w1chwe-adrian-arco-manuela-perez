@@ -1,0 +1,30 @@
+@use "../variables/colors";
+
+.images-list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  overflow: hidden;
+  padding: 20px;
+  gap: 20px;
+}
+
+.image-box {
+  display: flex;
+}
+
+.fa-star {
+  color: palevioletred;
+  padding: 4px;
+}
+
+.research-results {
+  font-weight: 700;
+  color: black;
+  align-self: center;
+}
+
+.house-card {
+  border-botom: 1px solid;
+  border-color: colors.$grey-lane-color;
+}
