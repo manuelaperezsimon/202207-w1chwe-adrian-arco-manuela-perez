@@ -1,0 +1,13 @@
+
+@mixin formInput ($borderRadiusInput, $widthInput, $heightInput) {
+  font-family: "Poppins", sans-serif;
+  border-radius: $borderRadiusInput;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 50px 30px;
+  width: $widthInput;
+  height: $heightInput;
+}
+

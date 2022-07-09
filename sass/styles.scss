@@ -2,6 +2,8 @@
 @use "mixin/mixins";
 @use "partials/header";
 @use "partials/found-card";
+@use "partials/form";
+
 * {
   box-sizing: content-box;
 }
