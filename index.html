@@ -32,15 +32,28 @@
       <h2 class="main__tittle">
         Find deals on hotels, home and much more...
       </h2>
-      <form class="main__form">
-        <input class="form__input input--destiny" type="text" placeholder="Where are you doing?" required>
-        </input>
-        <input class="form__input input--check-in-check-out" type="text" placeholder="Check-in - Check-out" required>
-        </input>
-        <input class="form__input input--number-of-passangers" type="number" placeholder="2 adults - 0 children"
-          required>
-        </input>
-        <button class="form__button button--search" action="submit" required>
+      <form class="section__form">
+        <div class="form__input--search">
+          <span class="text">Destination/property name</span>
+          <input class="form__input input--text input--search" type="text" placeholder="Gold Coast" required>
+          </input>
+        </div>
+        <div class="form__input--search"> 
+          <span class="text">Check-in date</span>
+          <input class="form__input input--text input--calendar" type="date" placeholder="Check-in date" required>
+          </input>
+        </div>
+        <div class="form__input--search">
+          <span class="text">Check-out date</span>
+         <input class="form__input input--text input--calendar" type="date" placeholder="Check-out date" required>
+         </input>
+        </div>
+        <div class="form__input--search">
+          <span class="text">Travellers</span>
+          <input class="form__input input--text input--travellers" type="number" placeholder="2 adults - 0 children">
+          </input>
+        </div>
+        <button class="button--big button--pink">
           Search
         </button>
       </form>

@@ -29,13 +29,31 @@
   .form__input {
   border-radius: 16px;
   font-family: "Poppins", sans-serif;
-  width: 300px;
+  width: 250px;
   height: 30px;
-  padding: 5px;
+  padding-left: 40px;
   }  
 }
 
+.input--search {
+    background-image: url("../../images/lupa.svg");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-x: 5%;
+    background-position-y: center;
+   
+}
+.input--calendar {
+  font-weight: lighter;
+}
 
+.input--travellers {
+  background-image: url("../../images/user-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position-x: 5%;
+  background-position-y: center;
+}
 
 .section__form .form__input--search {
   display: flex;

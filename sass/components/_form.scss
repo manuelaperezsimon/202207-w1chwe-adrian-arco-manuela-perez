@@ -26,9 +26,15 @@
     width: 300px;
     height: 30px;
     padding: 5px;
+    background-image: url("../../images/to-right-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-x: 285px;
+    background-position-y: center;
   }
   //como se hacía con &?? No entiendo.
-  //hacermixing-
+ 
+
 
   .form__button {
     font-family: "Poppins", sans-serif;
