@@ -1,0 +1,36 @@
+@use "../variables/colors";
+
+.tittle--black {
+  color: black;
+}
+.tittle-footer--big {
+  font-weight: 700;
+}
+.footer-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.footer-menu--hidden-mobile {
+  display: none;
+}
+.copyright-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-menu__item--box-small {
+  width: 70%;
+}
