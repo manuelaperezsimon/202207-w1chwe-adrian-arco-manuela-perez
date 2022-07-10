@@ -7,29 +7,5 @@
 @use "partials/button";
 @use "../sass/components/text-attention";
 @use "../sass/components/footer";
-@use "../sass/components/giantcontainer";
-* {
-  box-sizing: content-box;
-}
-
-html {
-  font-family: "Poppins", sans-serif;
-}
-body {
-  width: 100%;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  color: colors.$purple-color;
-}
-.letter--purple {
-  color: colors.$purple-color;
-}
-.hidden {
-  display: none;
-}
+@use "../sass/partials/giantcontainer";
+@use "../sass/partials/base";

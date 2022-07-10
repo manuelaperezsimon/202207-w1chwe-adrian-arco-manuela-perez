@@ -10,38 +10,35 @@
   display: flex;
   flex-direction: column;
   padding: 40px 30px;
-  background-color: colors.$violet-background; 
+  background-color: colors.$violet-background;
   margin-top: 60px;
   border-radius: 20px;
   width: 320px;
-  height: 450px; 
-  margin-left: 30px;
+  height: 450px;
   margin-bottom: 40px;
 }
 
 .text {
-  color: #BCA4FF;
+  color: #bca4ff;
   margin-top: 15px;
 }
 
 .section__form {
-
   .form__input {
-  border-radius: 16px;
-  font-family: "Poppins", sans-serif;
-  width: 250px;
-  height: 30px;
-  padding-left: 40px;
-  }  
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    width: 250px;
+    height: 30px;
+    padding-left: 40px;
+  }
 }
 
 .input--search {
-    background-image: url("../../images/lupa.svg");
-    background-repeat: no-repeat;
-    background-size: 15px 15px;
-    background-position-x: 5%;
-    background-position-y: center;
-   
+  background-image: url("../../images/lupa.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position-x: 5%;
+  background-position-y: center;
 }
 .input--calendar {
   font-weight: lighter;
@@ -60,11 +57,9 @@
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   border-radius: 16px;
-}  
+}
 
 .button--big.button--pink {
   margin: auto;
   margin-top: 30px;
-
 }
-
