@@ -1,10 +1,20 @@
 @use "../variables/colors";
-
+a {
+  text-decoration: none;
+}
+.footer {
+  @media (min-width: 900px) {
+    display: flex;
+    color: grey;
+    margin-top: 1rem;
+  }
+}
 .tittle--black {
   color: black;
 }
 .tittle-footer--big {
   font-weight: 700;
+  width: 100%;
 }
 .footer-menu {
   list-style: none;
@@ -14,15 +24,34 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  @media (min-width: 900px) {
+    flex: 1;
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
 .footer-menu__item {
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 0.5rem;
+  @media (min-width: 900px) {
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+  }
+}
+
+.footer-menu--to-left {
+  @media (min-width: 900px) {
+  }
 }
 .footer-menu--hidden-mobile {
   display: none;
+  @media (min-width: 900px) {
+    display: flex;
+  }
 }
 .copyright-container {
   display: flex;
@@ -33,4 +62,10 @@
 
 .footer-menu__item--box-small {
   width: 70%;
+  @media (min-width: 900px) {
+    width: 100%;
+  }
+}
+.letters-bolder {
+  font-weight: 700;
 }
