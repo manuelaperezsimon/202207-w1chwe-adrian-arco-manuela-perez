@@ -1,0 +1,27 @@
+@use "../variables/colors";
+
+.text-attention {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+  .text-attention__target {
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    font-size: 14px;
+  }
+  .target--green {
+    border: 1px solid colors.$green-color;
+    color: colors.$green-color;
+    background-color:  #F2FFFB;
+  }
+
+  .target--pink {
+    border: 1px solid colors.$pink-color;
+    color: colors.$pink-color;
+    background-color: #FFF3F8;;
+  }
+}
