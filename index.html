@@ -1,176 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
 
-    <title>Travelulu</title>
-  </head>
-  <body>
-    <header class="header">
-      <h1 class="header-title">Travelulu</h1>
-      <nav class="header-menu">
-        <i class="fa-solid fa-bars"></i>
-      </nav>
-    </header>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
 
-<main class="main">
+  <title>Travelulu</title>
+</head>
 
-  <section class="main__initial-section">
-    <h2 class="main__tittle">
-      Find deals on hotels, home and much more...
-    </h2>
-    <form class="main__form">
-      <input class="form__input input--destiny" type="text" placeholder="Where are you doing?" required>
-      </input>
-      <input class="form__input input--check-in-check-out" type="text" placeholder="Check-in - Check-out" required>
-      </input>
-      <input class="form__input input--number-of-passangers" type="number" placeholder="2 adults - 0 children" required>
-      </input>
-      <button class="form__button button--search" action="submit" required>
-        Search
-      </button>
-    </form>  
-  </section>
-  <div class="container__search-found-section">
-  <section class="section__search">
-    <aside>
-      <h2 class="section__tittle">
-        Search
+<body>
+  <header class="header">
+    <h1 class="header-title">Travelulu</h1>
+    <nav class="header-menu">
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+  </header>
+
+
+  <main class="main">
+
+    <section class="main__initial-section">
+      <h2 class="main__tittle">
+        Find deals on hotels, home and much more...
       </h2>
-      <form class="section__form">
-        <div class="form__input--search">
-          <span class="text">Destination/property name</span>
-          <input class="form__input input--text" type="text" placeholder="Gold Coast" required>
-          </input>
-        </div>
-        <div class="form__input--search"> 
-          <span class="text">Check-in date</span>
-          <input class="form__input input--text" type="date" placeholder="Check-in date" required>
-          </input>
-        </div>
-        <div class="form__input--search">
-          <span class="text">Check-out date</span>
-         <input class="form__input input--text" type="date" placeholder="Check-out date" required>
-         </input>
-        </div>
-        <div class="form__input--search">
-          <span class="text">Travellers</span>
-          <input class="form__input input--text" type="number" placeholder="2 adults - 0 children">
-          </input>
-        </div>
-        <button class="button--big button--pink">
+      <form class="main__form">
+        <input class="form__input input--destiny" type="text" placeholder="Where are you doing?" required>
+        </input>
+        <input class="form__input input--check-in-check-out" type="text" placeholder="Check-in - Check-out" required>
+        </input>
+        <input class="form__input input--number-of-passangers" type="number" placeholder="2 adults - 0 children"
+          required>
+        </input>
+        <button class="form__button button--search" action="submit" required>
           Search
         </button>
       </form>
-    </aside> 
-  </section>
+    </section>
+    <div class="container__search-found-section">
+      <section class="section__search">
+        <aside>
+          <h2 class="section__tittle">
+            Search
+          </h2>
+          <form class="section__form">
+            <div class="form__input--search">
+              <span class="text">Destination/property name</span>
+              <input class="form__input input--text" type="text" placeholder="Gold Coast" required>
+              </input>
+            </div>
+            <div class="form__input--search">
+              <span class="text">Check-in date</span>
+              <input class="form__input input--text" type="date" placeholder="Check-in date" required>
+              </input>
+            </div>
+            <div class="form__input--search">
+              <span class="text">Check-out date</span>
+              <input class="form__input input--text" type="date" placeholder="Check-out date" required>
+              </input>
+            </div>
+            <div class="form__input--search">
+              <span class="text">Travellers</span>
+              <input class="form__input input--text" type="number" placeholder="2 adults - 0 children">
+              </input>
+            </div>
+            <button class="button--big button--pink">
+              Search
+            </button>
+          </form>
+        </aside>
+      </section>
 
-<div class="container__house-cards">
-  
-  <h2 class="research-result">254 Properties Found</h2>
-  
-  
-  <article class="house-card">
-  <div class="container__image__info">
-    <ul class="images-list">
-        <li class="container__image"><img src="./images/casa1.png" class="images-list__image" alt="imagen de una casa"></li>
-       <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
-  </ul>
-  <div class="house-card__info">
-  <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-  <h3>Estate of Newcastle</h3>
-  <span >Newcastle City Centre, Newcastle upon Tyne</span>
-  <span >0.1 km from centre</span>
-  <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
-  <p >Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
-  </div>
-</div>
-<button class="button button--small button--transparent button--replace" >Make a booking</button>
-</article>
+      <div class="container__house-cards">
 
-  <article class="house-card">
-  <div class="container__image__info">
-    <ul class="images-list">
-        <li  class="container__image"><img src="./images/casa2.png" class="images-list__image" alt="imagen de una casa"></li>
-       <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
-  </ul>
-  <div class="house-card__info">
-  <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-  <h3>Estate of Newcastle</h3>
-  <span >Newcastle City Centre, Newcastle upon Tyne</span>
-  <span >0.1 km from centre</span>
-  <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
-  <p >Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
-  </div>
-</div>
-<button class="button--small button--transparent button--replace">Make a booking</button>
-</article>
+        <h2 class="research-result">254 Properties Found</h2>
 
-  <article class="house-card">
-  <div class="container__image__info">
-    <ul class="images-list">
-        <li class="container__image"><img src="./images/casa3.png" class="images-list__image" alt="imagen de una casa"></li>
-       <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
-  </ul>
-  <div class="house-card__info">
-  <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-  <h3>Estate of Newcastle</h3>
-  <span >Newcastle City Centre, Newcastle upon Tyne</span>
-  <span >0.1 km from centre</span>
-  <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
-  <p >Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
-  </div>
-</div>
-<button class="button--small button--transparent button--replace" >Make a booking</button>
-</article>
 
- <article class="house-card hidden">
+        <article class="house-card">
+          <div class="container__image__info">
+            <ul class="images-list">
+              <li class="container__image"><img src="./images/casa1.png" class="images-list__image"
+                  alt="imagen de una casa"></li>
+              <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
+            </ul>
+            <div class="house-card__info">
+              <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i></span>
+              <h3>Estate of Newcastle</h3>
+              <span>Newcastle City Centre, Newcastle upon Tyne</span>
+              <span>0.1 km from centre</span>
+              <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
+              <p>Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
+            </div>
+          </div>
+          <button class="button button--small button--transparent button--replace">Make a booking</button>
+        </article>
 
-  <ul class="images-list">
-    <li><img src="./images/casa1.png" class="images-list__image" alt="imagen de una casa"></li>
-    <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
-  </ul>
-  <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
-  <h3>Estate of Newcastle</h3>
-  <span>Newcastle City Centre, Newcastle upon Tyne</span>
-  <span>0.1 km from centre</span>
-  <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
-  <p>Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
-  <button class="button--small button--transparent button--replace">Make a booking</button>
-</article>
-</div>
-</div>
+        <article class="house-card">
+          <div class="container__image__info">
+            <ul class="images-list">
+              <li class="container__image"><img src="./images/casa2.png" class="images-list__image"
+                  alt="imagen de una casa"></li>
+              <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
+            </ul>
+            <div class="house-card__info">
+              <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i></span>
+              <h3>Estate of Newcastle</h3>
+              <span>Newcastle City Centre, Newcastle upon Tyne</span>
+              <span>0.1 km from centre</span>
+              <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
+              <p>Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
+            </div>
+          </div>
+          <button class="button--small button--transparent button--replace">Make a booking</button>
+        </article>
 
-<section class="text-attention">
-  <p class="text-attention__target target--green">
-    Lock in a great price for your upcoming stay. Get instant confirmation with FREE cancellation on most rooms!
-  </p>
-  <p class="text-attention__target target--pink">
-    From 6 April 2022, your chosen cancellation policy will apply, regardless of Coronavirus. 
-    We recommend booking a free cancellation option in case your travel plans need to change.
-  </p>
-  <div class="more-info">
-    <p class="more-info__target">Need more information to get started?</p>
-    <button class= "more-info__button button--purple">CONTACT US</button>
-  </div> 
-</section>
-</main>
+        <article class="house-card">
+          <div class="container__image__info">
+            <ul class="images-list">
+              <li class="container__image"><img src="./images/casa3.png" class="images-list__image"
+                  alt="imagen de una casa"></li>
+              <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
+            </ul>
+            <div class="house-card__info">
+              <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                  class="fa-regular fa-star"></i></span>
+              <h3>Estate of Newcastle</h3>
+              <span>Newcastle City Centre, Newcastle upon Tyne</span>
+              <span>0.1 km from centre</span>
+              <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
+              <p>Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
+            </div>
+          </div>
+          <button class="button--small button--transparent button--replace">Make a booking</button>
+        </article>
+
+        <article class="house-card hidden">
+
+          <ul class="images-list">
+            <li><img src="./images/casa1.png" class="images-list__image" alt="imagen de una casa"></li>
+            <li><img src="./images/casa1.png" class="images-list__image hidden__photo" alt="imagen de una casa"></li>
+          </ul>
+          <span><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+              class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+          <h3>Estate of Newcastle</h3>
+          <span>Newcastle City Centre, Newcastle upon Tyne</span>
+          <span>0.1 km from centre</span>
+          <h4><i class="fa-solid fa-location-dot"></i> Show on map </h4>
+          <p>Situated in Newcastle City Centre, Maldron Hotel features free Wifi and a private court yard</p>
+          <button class="button--small button--transparent button--replace">Make a booking</button>
+        </article>
+      </div>
+    </div>
+    <section class="text-attention">
+      <p class="text-attention__target target--green">
+        Lock in a great price for your upcoming stay. Get instant confirmation with FREE cancellation on most rooms!
+      </p>
+      <p class="text-attention__target target--pink">
+        From 6 April 2022, your chosen cancellation policy will apply, regardless of Coronavirus.
+        We recommend booking a free cancellation option in case your travel plans need to change.
+      </p>
+      <div class="more-info">
+        <p class="more-info__target">Need more information to get started?</p>
+        <button class="more-info__button button--purple">CONTACT US</button>
+      </div>
+
+    </section>
+
+    <footer>
+      <section>
+        <h2>Travelulu</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum velit officia saepe! Autem, voluptas id
+          molestiae
+          alias ipsa praesentium neque a laboriosam dolorum laudantium, perspiciatis, hic quasi ipsum iste quas.
+        </p>
+        <p>Copyright 2021, All Rights Reserved</p>
+      </section>
+      <ul class="footer-menu footer-menu--hidden-mobile">
+        <h3 class="tittle--black">Services</h3>
+        <li>Planning</li>
+        <li>Financing</li>
+        <li>Purchasing</li>
+        <li>Meeting</li>
+        <li>Flying</li>
+      </ul>
+
+      <ul class="footer-menu footer-menu--hidden-mobile">
+        <h3 class="tittle--black">Continents</h3>
+        <li>North America</li>
+        <li>South America</li>
+        <li>Asia</li>
+        <li>Africa</li>
+        <li>Europe</li>
+        <li>Australia</li>
+      </ul>
+
+      <ul class="footer-menu">
+        <h3 class="tittle--black">Contact</h3>
+        <li><a href="">travelulu@website.com</a></li>
+        <li>22 Street Address,, Suburb Addresss Main City, PO Box, Country</li>
+        <li>08 8888 88888</li>
+      </ul>
+
+    </footer>
+
+
+  </main>
+</body>
+
+</html>
