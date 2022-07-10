@@ -62,19 +62,21 @@
     flex-direction: row;
     gap: 0;
 
+    .form__input {
+      margin: 0px 10px;
+    }
+
     .input--destiny {
-      width: 1000px;
+      width: 1000px;  
       
   }
   
     .input--check-in-check-out {
-      width: 500px;
-      
+      width: 500px;  
     }
 
     .input--number-of-passangers {
-      width: 500px;
-      
+      width: 500px; 
     }
   }    
 }
