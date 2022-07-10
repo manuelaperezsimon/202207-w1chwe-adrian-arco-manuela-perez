@@ -7,7 +7,6 @@
 @use "partials/button";
 @use "../sass/components/text-attention";
 
-
 * {
   box-sizing: content-box;
 }
@@ -29,4 +28,7 @@ h6 {
 }
 .letter--purple {
   color: colors.$purple-color;
+}
+.hidden {
+  display: none;
 }
