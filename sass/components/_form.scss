@@ -1,12 +1,11 @@
 
 @use "../variables/colors";
-// @use "../styles.scss";
 
-main__initial-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+// .main__initial-section {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
 
 .main__tittle {
   font-size: 22px;
@@ -16,8 +15,9 @@ main__initial-section {
 
 .main__form {
   display: flex;
-    flex-direction: column;
-    gap: 40px;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
 }
 
 
@@ -62,19 +62,21 @@ main__initial-section {
     flex-direction: row;
     gap: 0;
 
+    .form__input {
+      margin: 0px 10px;
+    }
+
     .input--destiny {
-      width: 1000px;
+      width: 1000px;  
       
   }
   
     .input--check-in-check-out {
-      width: 500px;
-      
+      width: 500px;  
     }
 
     .input--number-of-passangers {
-      width: 500px;
-      
+      width: 500px; 
     }
   }    
 }

@@ -1,35 +1,38 @@
 @use "../variables/colors";
 
 .section__tittle {
-  font-size: 24px;
-  font-weight: 600;
-  color: #BCA4FF;
+  font-size: 22px;
+  color: colors.$light-purple-color;
+  font-weight: lighter;
 }
 
 .section__search {
   display: flex;
   flex-direction: column;
   padding: 40px 30px;
-  background-color: #2A00A2;;
+  background-color: colors.$violet-background; 
   margin-top: 60px;
   border-radius: 20px;
-  width: 300px;
+  width: 320px;
   height: 450px; 
+  margin-left: 30px;
+  margin-bottom: 40px;
 }
 
 .text {
   color: #BCA4FF;
+  margin-top: 15px;
 }
 
-.form__input {
+.section__form {
+
+  .form__input {
   border-radius: 16px;
-  justify-content: space-between;
-  gap: 20px;
+  font-family: "Poppins", sans-serif;
   width: 300px;
   height: 30px;
   padding: 5px;
-
-
+  }  
 }
 
 
@@ -39,5 +42,11 @@
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   border-radius: 16px;
-
 }  
+
+.button--big.button--pink {
+  margin: auto;
+  margin-top: 30px;
+
+}
+

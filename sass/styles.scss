@@ -1,10 +1,11 @@
 @use "variables/colors";
 @use "mixin/mixins";
-@use "partials/header";
-@use "partials/found-card";
-@use "partials/form";
-@use "./partials/search";
+@use "../sass/components/header";
+@use "../sass/components/found-card";
+@use "../sass/components/form";
+@use "../sass/components/search";
 @use "partials/button";
+@use "../sass/components/text-attention";
 
 * {
   box-sizing: content-box;
