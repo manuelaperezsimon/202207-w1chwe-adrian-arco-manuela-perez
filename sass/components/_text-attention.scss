@@ -25,3 +25,17 @@
     background-color: #FFF3F8;;
   }
 }
+
+ 
+  @media (min-width: 900px) {
+    
+    .text-attention {
+        align-items: flex-start;
+        margin-left: 30px;
+       
+        .text-attention__target {
+          width: 90%;
+        }
+      }    
+} 
+
