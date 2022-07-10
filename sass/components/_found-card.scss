@@ -31,10 +31,13 @@
   overflow: hidden;
   padding: 20px;
   gap: 20px;
+  padding-left: 0;
   @media (min-width: 900px) {
     overflow: auto;
     width: 100%;
     gap: 0;
+    padding: 0;
+    margin: 1rem 1rem 4rem 1rem;
   }
 }
 
@@ -42,14 +45,17 @@
   color: palevioletred;
   padding: 4px;
 }
-.container__research-results {
-  width: 100%;
-  height: fit-content;
-}
+
 .research-result {
+  align-self: flex-start;
   font-weight: 700;
   color: black;
   align-self: center;
+  @media (min-width: 900px) {
+    align-self: auto;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+  }
 }
 
 .house-card {
@@ -58,6 +64,11 @@
   @media (min-width: 900px) {
     display: flex;
     flex-direction: column;
+  }
+}
+.house-card__info {
+  @media (min-width: 900px) {
+    margin-top: 1rem;
   }
 }
 
