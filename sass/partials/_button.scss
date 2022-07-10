@@ -12,6 +12,9 @@
   color: colors.$purple-color;
   font-weight: 700;
   margin: 0;
+  @media (min-width: 900px) {
+    width: 120px;
+  }
 }
 .container__button {
   display: flex;
@@ -26,4 +29,12 @@
   font-family: "Poppins", sans-serif;
   background-color: colors.$pink-color;
   color: colors.$white-color;
+}
+
+.button--replace {
+  @media (min-width: 900px) {
+    position: relative;
+    top: -90%;
+    right: -75%;
+  }
 }
