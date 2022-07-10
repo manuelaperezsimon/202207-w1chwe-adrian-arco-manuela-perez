@@ -1,0 +1,13 @@
+.container__browser-view {
+  max-width: 480px;
+  flex-direction: column;
+  width: 90%;
+  display: flex;
+  @media (min-width: 900px) {
+    max-width: 1400px;
+  }
+}
+body {
+  display: flex;
+  justify-content: center;
+}
