@@ -2,7 +2,8 @@
 
 .main__tittle {
   font-size: 22px;
-  margin: 30px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: colors.$black-color;
 }
 
@@ -22,14 +23,12 @@
     border-radius: 16px;
     justify-content: space-between;
     gap: 20px;
-    margin: 0px 30px;
-    width: 300px;
+    margin: 0px 21px;
+    width: 95%;
     height: 30px;
     padding: 5px;
   }
   //como se hacía con &?? No entiendo.
- 
-
 
   .form__button {
     font-family: "Poppins", sans-serif;
@@ -47,9 +46,9 @@
 
 @media (min-width: 900px) {
   .main__initial-section {
-    margin-left: 30px
+    margin-left: 0;
   }
-  
+
   .main__form {
     margin-top: 30px;
     flex-direction: row;
